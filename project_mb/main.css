@@ -1,0 +1,44 @@
+/* 
+    Document   : main
+    Created on : 19-Oct-2013, 3:26:37 PM
+    Author     : Mike
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    font: 14px Verdana, sans-serif;
+    padding: 15px;
+}
+
+label {
+    font-size: 16px;
+}
+
+form {
+    border: 1px solid #00FF00;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
+#fin {
+    border: 1px solid #00FF00;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
+input[type="submit"]  {
+    padding: 7px;
+    background-color: #3399ff;
+    color: #fff;
+}
+
+.error {
+    color: #C00; 
+}
